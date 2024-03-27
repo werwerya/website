@@ -5,7 +5,7 @@ document.getElementById('dataForm').addEventListener('submit', function(e) {
         text: document.getElementById('inputData').value
     };
 
-    fetch('API_URL', { // "API_URL" kısmını API'nizin gerçek URL'i ile değiştirin
+    fetch('https://werwerya.github.io/website/', { // "API_URL" kısmını API'nizin gerçek URL'i ile değiştirin
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
